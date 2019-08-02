@@ -176,6 +176,12 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
 header a {
   text-decoration: none;
   color: black;
@@ -184,12 +190,33 @@ header nav a {
   font-size: 1.6rem;
   padding-right: 3rem;
 }
+@media (max-width: 500px) {
+  header nav a {
+    padding: 0 3rem;
+  }
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    padding-top: 1.7rem;
+  }
+  header h1 {
+    font-size: 3rem;
+    padding-bottom: 1.7rem;
+  }
+}
 .footer {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -231,7 +258,7 @@ header nav a {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -256,7 +283,7 @@ header nav a {
   width: 80%;
   margin: 0 auto;
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
