@@ -172,7 +172,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 2.4rem 0;
   width: 80%;
   margin: 0 auto;
 }
@@ -221,6 +221,11 @@ header nav a {
 .home .content-section.top {
   width: 80%;
   margin: 0 auto;
+  border-bottom: 2px dashed #bbb;
+  padding-bottom: 1.1rem;
+}
+.home .content-section.top img {
+  margin-bottom: 2.1rem;
 }
 .home .inverse-content {
   padding-bottom: 30px;
