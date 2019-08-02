@@ -82,11 +82,13 @@
   .content-destination {
     width: 80%;
     margin-left: 20%;
+    margin-right: 20%;
     padding-bottom: 3rem;
 
     @media @mobile {
       width: 90%;
       margin-left: 5%;
+      margin-right: 5%;
     }
 
     p {
@@ -99,6 +101,11 @@
 
     img {
       border-radius: 10px;
+      width: 75%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 
@@ -127,7 +134,7 @@
     }
 
     .btn {
-      .cta-btn(#008080, white, 1.4rem, 1.8rem, 1.5rem, center, 200px);
+      .cta-btn(#008080, white, 1.4rem, 1.8rem, 1.5rem, center, 83.33%);
 
       @media @mobile {
         .cta-btn(#18a2b8, white, 1.4rem, 1.8rem, 1.5rem, center, 100%);
