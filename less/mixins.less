@@ -1,10 +1,10 @@
 // Mixins in here
-.cta-btn(@background-color, @color, @padding, @font-size) {
+.cta-btn(@background-color, @color, @padding, @font-size, @border-radius, @text-align, @width) {
   background-color: @background-color;
   color: @color;
   padding: @padding;
   font-size: @font-size;
-  border-radius: 1.5rem;
-  text-align: center;
-  width: 200px;
+  border-radius: @border-radius;
+  text-align: @text-align;
+  width: @width;
 }
