@@ -188,17 +188,21 @@ header a {
 }
 header nav a {
   font-size: 1.6rem;
-  padding-right: 3rem;
+  padding-right: 2.8rem;
 }
 @media (max-width: 500px) {
   header nav a {
     padding: 0 3.15rem;
   }
 }
+header nav {
+  padding-right: 0.3rem;
+}
 @media (max-width: 500px) {
   header nav {
     display: flex;
     justify-content: space-around;
+    padding-right: 0;
   }
 }
 @media (max-width: 500px) {
